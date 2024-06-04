@@ -11,5 +11,4 @@ Recent studies show that 72% of students using AI-driven personalized learning p
 
 # [Blog Link](https://medium.com/@vishwakumaresh/tactiletext-a-solution-for-the-visually-impaired-to-access-the-internet-17a123fcb8a0)
 
-# Presentation
-![Presentation](https://github.com/Vishwa-docs/TactileText/blob/main/TactileText%20Presentation.pdf)
+# [Presentation Link](https://www.canva.com/design/DAGGmQ0jBMk/aqVkUg49s9aOqhIwYnWgAg/view?utm_content=DAGGmQ0jBMk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
