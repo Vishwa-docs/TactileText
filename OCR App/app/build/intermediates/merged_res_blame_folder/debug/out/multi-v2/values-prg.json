@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.github.subhamtyagi.ocr.app-mergeDebugResources-36:/values-prg/values-prg.xml",
+            "map": [
+                {
+                    "source": "/Users/daver/Desktop/android-ocr-master/app/src/main/res/values-prg/strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,138",
+                        "endColumns": "82,46",
+                        "endOffsets": "133,180"
+                    }
+                }
+            ]
+        }
+    ]
+}

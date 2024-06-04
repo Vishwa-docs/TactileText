@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.github.subhamtyagi.ocr"
+4    android:versionCode="12"
+5    android:versionName="4.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <queries>
+14-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:8:5-17:15
+15        <intent>
+15-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:9:9-11:18
+16            <action android:name="android.media.action.IMAGE_CAPTURE" />
+16-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:10:13-73
+16-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:10:21-70
+17        </intent>
+18        <intent>
+18-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:12:9-16:18
+19            <action android:name="android.intent.action.PICK" />
+19-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:13:13-65
+19-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:13:21-62
+20
+21            <data android:mimeType="image/jpeg" />
+21-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:15:13-51
+21-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:15:19-48
+22        </intent>
+23    </queries>
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] /Users/daver/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+26        android:name="io.github.subhamtyagi.ocr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] /Users/daver/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] /Users/daver/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="io.github.subhamtyagi.ocr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] /Users/daver/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] /Users/daver/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:19:5-69:19
+32        android:name="io.github.subhamtyagi.ocr.App"
+32-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:20:9-28
+33        android:allowBackup="true"
+33-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:21:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] /Users/daver/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:22:9-43
+37        android:label="@string/app_name"
+37-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:23:9-41
+38        android:roundIcon="@mipmap/ic_launcher"
+38-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:24:9-48
+39        android:screenOrientation="nosensor"
+39-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:25:9-45
+40        android:supportsRtl="true"
+40-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:26:9-35
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme" >
+42-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:27:9-40
+43
+44        <!--
+45         <service
+46             android:name=".screenshot.ScreenshotTile"
+47             android:enabled="true"
+48             android:exported="true"
+49             android:icon="@drawable/ic_baseline_ocr_tile"
+50             android:label="@string/app_name"
+51             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+52             <intent-filter>
+53                 <action android:name="android.service.quicksettings.action.QS_TILE" />
+54             </intent-filter>
+55             <meta-data
+56                 android:name="android.service.quicksettings.ACTIVE_TILE"
+57                 android:value="true" />
+58         </service>
+59        -->
+60
+61        <activity
+61-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:44:9-47:52
+62            android:name="io.github.subhamtyagi.ocr.SettingsActivity"
+62-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:45:13-45
+63            android:label="@string/settings"
+63-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:46:13-45
+64            android:screenOrientation="nosensor" />
+64-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:47:13-49
+65        <activity
+65-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:48:9-64:20
+66            android:name="io.github.subhamtyagi.ocr.MainActivity"
+66-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:49:13-41
+67            android:exported="true"
+67-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:50:13-36
+68            android:screenOrientation="nosensor" >
+68-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:51:13-49
+69            <intent-filter>
+69-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:52:13-56:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:53:17-69
+70-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:53:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:55:17-77
+72-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:55:27-74
+73            </intent-filter>
+74            <intent-filter>
+74-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:57:13-63:29
+75                <action android:name="android.intent.action.SEND" />
+75-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:58:17-69
+75-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:58:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:60:17-76
+77-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:60:27-73
+78
+79                <data android:mimeType="image/*" />
+79-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:15:13-51
+79-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:15:19-48
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:65:9-68:12
+83            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+83-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:66:13-76
+84            android:exported="true" />
+84-->/Users/daver/Desktop/android-ocr-master/app/src/main/AndroidManifest.xml:67:13-36
+85
+86        <provider
+86-->[:cropper] /Users/daver/Desktop/android-ocr-master/cropper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-18:20
+87            android:name="androidx.core.content.FileProvider"
+87-->[:cropper] /Users/daver/Desktop/android-ocr-master/cropper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-62
+88            android:authorities="io.github.subhamtyagi.ocr.image-cropper.provider"
+88-->[:cropper] /Users/daver/Desktop/android-ocr-master/cropper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+89            android:exported="false"
+89-->[:cropper] /Users/daver/Desktop/android-ocr-master/cropper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+90            android:grantUriPermissions="true" >
+90-->[:cropper] /Users/daver/Desktop/android-ocr-master/cropper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+91            <meta-data
+91-->[:cropper] /Users/daver/Desktop/android-ocr-master/cropper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-17:38
+92                android:name="android.support.FILE_PROVIDER_PATHS"
+92-->[:cropper] /Users/daver/Desktop/android-ocr-master/cropper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+93                android:resource="@xml/provider_paths" />
+93-->[:cropper] /Users/daver/Desktop/android-ocr-master/cropper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-55
+94        </provider>
+95        <provider
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/daver/.gradle/caches/transforms-3/798c3c0d56d8a0030f37c4437699c0b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+96            android:name="androidx.startup.InitializationProvider"
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/daver/.gradle/caches/transforms-3/798c3c0d56d8a0030f37c4437699c0b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+97            android:authorities="io.github.subhamtyagi.ocr.androidx-startup"
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/daver/.gradle/caches/transforms-3/798c3c0d56d8a0030f37c4437699c0b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+98            android:exported="false" >
+98-->[androidx.emoji2:emoji2:1.2.0] /Users/daver/.gradle/caches/transforms-3/798c3c0d56d8a0030f37c4437699c0b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+99            <meta-data
+99-->[androidx.emoji2:emoji2:1.2.0] /Users/daver/.gradle/caches/transforms-3/798c3c0d56d8a0030f37c4437699c0b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+100-->[androidx.emoji2:emoji2:1.2.0] /Users/daver/.gradle/caches/transforms-3/798c3c0d56d8a0030f37c4437699c0b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+101                android:value="androidx.startup" />
+101-->[androidx.emoji2:emoji2:1.2.0] /Users/daver/.gradle/caches/transforms-3/798c3c0d56d8a0030f37c4437699c0b6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daver/.gradle/caches/transforms-3/8c59a601db567b4cb6bd18434a8df3a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+103                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daver/.gradle/caches/transforms-3/8c59a601db567b4cb6bd18434a8df3a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+104                android:value="androidx.startup" />
+104-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/daver/.gradle/caches/transforms-3/8c59a601db567b4cb6bd18434a8df3a7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+105        </provider>
+106
+107        <uses-library
+107-->[androidx.window:window:1.0.0] /Users/daver/.gradle/caches/transforms-3/7c84e100c751398008e26e8b86ef591f/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+108            android:name="androidx.window.extensions"
+108-->[androidx.window:window:1.0.0] /Users/daver/.gradle/caches/transforms-3/7c84e100c751398008e26e8b86ef591f/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0] /Users/daver/.gradle/caches/transforms-3/7c84e100c751398008e26e8b86ef591f/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+110        <uses-library
+110-->[androidx.window:window:1.0.0] /Users/daver/.gradle/caches/transforms-3/7c84e100c751398008e26e8b86ef591f/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+111            android:name="androidx.window.sidecar"
+111-->[androidx.window:window:1.0.0] /Users/daver/.gradle/caches/transforms-3/7c84e100c751398008e26e8b86ef591f/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0] /Users/daver/.gradle/caches/transforms-3/7c84e100c751398008e26e8b86ef591f/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+113    </application>
+114
+115</manifest>

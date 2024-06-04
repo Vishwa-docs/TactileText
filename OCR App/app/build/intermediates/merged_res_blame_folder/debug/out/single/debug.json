@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_more_horiz_32.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_more_horiz_32.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_copy_all_24.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_copy_all_24.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_photo_library_24.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_photo_library_24.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_info_16.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_info_16.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_filter_32.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_filter_32.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_share_24.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_search_black_36.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_search_black_36.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/anim_slide_out_top.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/anim/slide_out_top.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/layout_bottom_sheet_dialog_results.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/layout/bottom_sheet_dialog_results.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/layout_settings_activity.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/layout/settings_activity.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/layout_dialog_layout.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/layout/dialog_layout.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_source_32.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_source_32.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/xml_root_preferences.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/xml/root_preferences.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_ocr_tile.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_ocr_tile.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_history_24.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_history_24.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_settings_white_24dp.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_settings_white_24dp.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/xml_advance_preference.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/xml/advance_preference.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_tile_icon.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_tile_icon.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_language_32.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_language_32.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_search_36.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_search_36.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_page_seg_32.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_page_seg_32.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/anim_slide_in_bottom.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_save_32.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_save_32.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/drawable_ic_baseline_functions_32.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/drawable/ic_baseline_functions_32.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/layout_items_view.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/layout/items_view.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/menu_menu_main.xml.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/menu/menu_main.xml"
+    },
+    {
+        "merged": "io.github.subhamtyagi.ocr.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "io.github.subhamtyagi.ocr.app-main-40:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    }
+]
